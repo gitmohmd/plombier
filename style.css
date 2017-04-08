@@ -1,8 +1,9 @@
-
+/*######################## body #######################*/
 body {
    background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQB39awA3uLNW-h1VLSdRiQ0u3rMH7VJ5suF8oBYlt2nlTpRq0K);
  }
 
+ /*######################## header ########################*/
 
 header {
    width: auto;
@@ -41,7 +42,7 @@ header nav li {
    background-color: rgb(121,78,45);
 }
 
-
+/*########################### section ##########################*/
 
 section .top img{
   float: left;
@@ -53,6 +54,7 @@ section h2,p {
 
 }
 
+/*############################## footer ###########################*/
 
 footer {
    position: relative;
@@ -66,7 +68,7 @@ footer ul {
   right: 100px;
 }
 
-/*footer li {*/
-  /*display: inline-block;*/
-  /*margin-right: 50px;*/
+footer li {
+  display: inline-block;
+  margin-right: 50px;
 }
