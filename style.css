@@ -61,10 +61,10 @@ footer {
    height: 100px;
 }
 
-/*footer ul {*/
-  /*position: absolute;*/
-  /*right: 100px;*/
-/*}*/
+footer ul {
+  position: absolute;
+  right: 100px;
+}
 
 /*footer li {*/
   /*display: inline-block;*/
