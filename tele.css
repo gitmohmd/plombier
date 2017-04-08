@@ -1,0 +1,40 @@
+/*################## body ###################*/
+body {
+  background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQB39awA3uLNW-h1VLSdRiQ0u3rMH7VJ5suF8oBYlt2nlTpRq0K);
+}
+/*####################### header###########################*/
+header {
+   width: auto;
+   height: 150px;
+   position: relative;
+   background-color: rgb(102,198,38);
+}
+
+header h1 {
+  text-align: center;
+  font-style: italic;
+  color: rgb(121,78,45);
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    position: absolute;
+}
+
+header nav {
+   width: 600px;
+   height: 200px;
+   position: absolute;
+   left: 800px;
+   display: inline-block;
+   margin-top: 90px;
+}
+
+header nav li {
+   display: inline-block;
+   margin-left: 80px;
+}
+ header nav li:hover  {
+   background-color: rgb(121,78,45);
