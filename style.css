@@ -16,6 +16,7 @@ header h1 {
   text-align: center;
   font-style: italic;
   color: rgb(121,78,45);
+  position: relative;
 }
 
 header img {
@@ -71,4 +72,67 @@ footer ul {
 footer li {
   display: inline-block;
   margin-right: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 1020px)
+{
+  body {
+  margin-right: 0;
+}
+
+header {
+  width:100%;
+  height: auto;
+  margin: 0;
+}
+
+header h1{
+  width: 20%;
+  height: auto;
+  margin: 0px;
+ }
+
+ header img {
+    width: 20%;
+    height: auto;
+ }
+header nav ul  {
+    padding-right:0;
+}
+
+header nav ul li {
+
+  width: 50%;
+  text-align: center;
+}
+
+
+
+secion {
+   margin-right: 0;
+ }
+
+
+section .top img {
+   width: 80%;
+   height: auto;
+   margin: 0;
+   float: left;
+}
+
+
+section .top h2 ,p{
+   width: 100%;
+   height: auto;
+   margin: 0;
+}
+footer {
+  margin: 0;
+}
+
+
+footer li {
+  width: 100%;
+  height: auto;
+}
 }
